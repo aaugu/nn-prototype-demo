@@ -5,12 +5,48 @@
 }
 
 .footer-infos {
-  padding: 0 5vh;
+  margin: 2vh 0;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.footer-access-map {
+  .fa-map-location-dot {
+    font-size: 50px;
+    margin-bottom: 1.2vh;
+  }
+
+  p, .fa-map-location-dot {
+    color: $light-gray;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+}
+
+.footer-logo {
+  width: 30vh;
+
+  div {
+    height: 12vh;
+    object-fit: contain;
+  }
+}
+
+
+.gray-border {
+  border-right: 1px solid $light-gray;
+  border-left: 1px solid $light-gray;
 }
 
 .copyright-bar {
+  height: 2.5vh;
   background-color: $deep-yellow;
   text-align: center;
   padding: 0.5em;
-  font-size: 1.5vh;
+  font-size: 1.2vh;
+  font-weight: bold;
 }
