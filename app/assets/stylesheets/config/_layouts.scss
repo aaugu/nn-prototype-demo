@@ -1,5 +1,5 @@
 *, *::before, *::after {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 * {
@@ -13,7 +13,8 @@ html, body {
 }
 
 .content {
-  padding-bottom: 17.5vh;
+  padding-top: 13vh;
+  padding-bottom: 24vh;
 }
 
 a {
@@ -40,6 +41,8 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-.border-red {
-  border: 1px solid red;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
