@@ -1,10 +1,20 @@
+
+.footer {
+  font-size: 1.8vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
 .contact-data {
   min-height: 15vh;
   background-color: $green;
   color: $light-gray;
+  padding: 0 2vh;
 }
 
 .footer-infos {
+  min-width: 18vh ;
   margin: 2vh 0;
 
   a {
@@ -36,10 +46,10 @@
   }
 }
 
-
-.gray-border {
-  border-right: 1px solid $light-gray;
-  border-left: 1px solid $light-gray;
+.vertical-bar {
+  background-color: $light-gray;
+  width: 1px;
+  height: 8vh;
 }
 
 .copyright-bar {
