@@ -1,0 +1,35 @@
+.contact-button {
+  color: $blue;
+  font-size: 2vh;
+
+  a {
+    background-color: $deep-yellow;
+    border-radius: 10px;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 0 auto;
+
+    &:hover {
+        font-weight: bold;
+      }
+  }
+}
+
+.phone-button {
+  color: $blue;
+  border-radius: 20px;
+  padding: 8px 18px;
+  background-color: $light-gray;
+
+  .fa-phone {
+    font-size: larger;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+        font-weight: bolder;
+    }
+  }
+
+}

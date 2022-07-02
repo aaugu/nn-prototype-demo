@@ -1,0 +1,62 @@
+
+.footer {
+  font-size: 1.8vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.contact-data {
+  min-height: 15vh;
+  background-color: $green;
+  color: $light-gray;
+  padding: 0 2vh;
+}
+
+.footer-infos {
+  min-width: 18vh ;
+  margin: 2vh 0;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.footer-access-map {
+  .fa-map-location-dot {
+    font-size: 50px;
+    margin-bottom: 1.2vh;
+  }
+
+  p, .fa-map-location-dot {
+    color: $light-gray;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+}
+
+.footer-logo {
+  width: 30vh;
+
+  div {
+    height: 12vh;
+    object-fit: contain;
+  }
+}
+
+.vertical-bar {
+  background-color: $light-gray;
+  width: 1px;
+  height: 8vh;
+}
+
+.copyright-bar {
+  height: 2.5vh;
+  background-color: $deep-yellow;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 1.2vh;
+  font-weight: bold;
+}
