@@ -1,0 +1,16 @@
+.contact-button {
+  color: $blue;
+  padding: auto;
+
+  a {
+    background-color: $deep-yellow;
+    font-weight: bold;
+    border-radius: 8%;
+    padding: 0.5em 1em;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bolder;
+  }
+}
