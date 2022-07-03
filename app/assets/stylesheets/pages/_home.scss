@@ -1,1 +1,32 @@
-// Specific CSS for your home-page
+.banner {
+  background-image: url("nils-lindner-drba0TzbCGA-unsplash.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 5vh;
+
+  h1 {
+    color: $light-gray;
+    text-shadow: 1px 1px 1px rgb(98, 97, 97);
+  }
+}
+
+.banner-title {
+  font-size: 8vh;
+  margin-bottom: 2vh;
+}
+
+.home-content {
+  min-height: 30vh;
+  background-color: rgba($color: $green, $alpha: 0.2);
+
+  div {
+    width: 60vw;
+    height: 100%;
+    padding: 2vh 10vh;
+  }
+  img {
+    height: 100%;
+    width: 20vw;
+    object-position: cover;
+  }
+}

@@ -1,18 +1,14 @@
 nav {
   width: 100%;
   min-height: 8vh;
-  div {
-    background-color: $green;
-    font-size: 2.5vh;
-  }
+  font-size: 2.5vh;
   a {
     color: $light-gray;
-    text-shadow: 1px 1px 1px rgb(98, 97, 97);
   }
+}
 
-  a:hover {
-    text-shadow: none;
-  }
+.bg-green {
+  background-color: $green;
 }
 
 .navbar-logo {
@@ -35,6 +31,12 @@ nav {
 
   a:hover {
     color: $deep-yellow;
+  }
+}
+
+.bg-transparent {
+  a {
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
   }
 }
 
