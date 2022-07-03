@@ -13,11 +13,12 @@ html, body {
 }
 
 .content {
-  padding-bottom: 24vh;
+  padding-bottom: 19vh;
 }
 
 .general-container {
   padding-top: 15vh;
+  padding-bottom: 5vh;
 }
 
 a {
@@ -54,7 +55,7 @@ p {
   margin-bottom: 0;
 }
 
-h1 {
+h1, h2 {
   color: $green;
 }
 
@@ -70,13 +71,6 @@ h1 {
     margin: 0;
   }
 
-  img {
-    height: 6vh;
-    object-fit: contain;
-    margin: 0 2vh;
-  }
-
-
   div {
     flex-grow: 1;
     background-color: $green;
@@ -84,6 +78,11 @@ h1 {
   }
 }
 
+.logo-title {
+  height: 6vh;
+  object-fit: contain;
+  margin: 0 2vh;
+}
 .size-highlight {
   font-size: 1.1rem;
 }

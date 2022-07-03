@@ -30,3 +30,35 @@
     object-position: cover;
   }
 }
+
+.psy-card {
+  width: 50%;
+  height: 100%;
+  padding: 0 3vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.psy-logo {
+  height: 10vh;
+  margin-bottom: 5vh;
+}
+
+.cabinet-imgs {
+  width: 100%;
+  padding: 7vh 0;
+  margin: 5vh 0 0 0;
+  background-color: rgba($color: $green, $alpha: 0.2);
+  display: flex;
+  justify-content: space-around;
+}
+
+.horizontal-bar {
+  flex-grow: 1;
+  background-color: $green;
+  height: 1px;
+  border: 1px solid blue;
+}
