@@ -1,6 +1,6 @@
 
 .footer {
-  font-size: 1.8vh;
+  font-size: 1.6vh;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -10,7 +10,7 @@
   min-height: 15vh;
   background-color: $green;
   color: $light-gray;
-  padding: 0 2vh;
+  padding: 1vh 2vh;
 }
 
 .footer-infos {
@@ -38,11 +38,11 @@
 }
 
 .footer-logo {
-  width: 30vh;
 
   div {
     height: 12vh;
     object-fit: contain;
+    margin: 0 2vh;
   }
 }
 
@@ -50,6 +50,7 @@
   background-color: $light-gray;
   width: 1px;
   height: 8vh;
+  margin: 0 2vh;
 }
 
 .copyright-bar {
