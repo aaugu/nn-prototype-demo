@@ -3,8 +3,11 @@
 // For example:
 $red: #FD1015;
 $blue: #1C7073;
+$light-blue: rgba($color: $blue, $alpha: 0.2);
 $yellow: #FFC632;
+$light-yellow: rgba($color: $yellow, $alpha: 0.5);
 $orange: #E67E22;
 $green: #459A79;
+$light-green: rgba($color: $green, $alpha: 0.2);
 $gray: #000e0d;
 $light-gray: #E6E4DF;

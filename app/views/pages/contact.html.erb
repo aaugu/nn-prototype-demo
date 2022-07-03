@@ -1,27 +1,60 @@
-<div>
-  <div>
-    <strong>Addresse</strong>
-    <div>
-      <p>Naomi Nilsson</p>
-      <p>Cabinet de Psychothérapie de la Palud</p>
-      <p>Place de la Palud 7</p>
-      <p>1003 Lausanne</p>
-    </div>
-  </div>
-
-  <div>
-    <div>
-      <p><i class="fa-solid fa-phone"></i> Par téléphone</p>
-      +41 (0)7 488 28 23
-    </div>
-
-    <div>
-      <p><i class="fa-regular fa-envelope"></i> Par e-mail</p>
-      naomi.nilsson@psychologie.ch
-    </div>
-  </div>
+<div class="title">
+  <div></div>
+  <%= image_tag "logo-titles.png" %>
+  <h1 class="text-center mx-2">CONTACT</h1>
+  <%= image_tag "logo-titles.png" %>
+  <div></div>
 </div>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.296084264853!2d6.630278815793228!3d46.52204257025491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2e318873e329%3A0x67dc283a84938dda!2sPl.%20de%20la%20Palud%207%2C%201003%20Lausanne!5e0!3m2!1sfr!2sch!4v1656841938559!5m2!1sfr!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="contact-container mx-auto">
 
-<%# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="16" width="16"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg> %>
+  <div class="contact-intro mb-5 text-center">
+    <p>Je travaille actuellement les lundis de 19h à 19h, les jeudis et vendredis de 8h15 à 17h30.</p><br>
+    <p>Dans l’immédiat (actualisé en juillet 2022) je n’ai pas de disponibilité pour de nouveaux suivis, mais il est toujours possible de me faire une demande par mail et que je vous contacte lorsqu’une place se libère.</p>
+  </div>
+
+  <h3 class="mb-3">Me joindre</h3>
+
+  <div class="contact-cards-container d-flex">
+    <div class="contact-card contact-address">
+      <div class="contact-card-content d-flex align-items-center">
+        <p><strong>Addresse</strong><br><br>
+        Naomi Nilsson<br>
+        Cabinet de Psychothérapie de la Palud<br>
+        Place de la Palud 7<br>
+        1003 Lausanne</p>
+      </div>
+    </div>
+
+    <div class="contact-card contact-data">
+      <div class="contact-card-content d-flex flex-column justify-content-around">
+        <div>
+          <%= link_to "tel:+41774882823" do %>
+            <p><i class="fa-solid fa-phone"></i><strong> Par téléphone</strong></p>
+          <% end %>
+          +41 (0)77 488 28 23
+        </div>
+
+        <div>
+          <%= link_to "mailto:naomi.nilsson@psychologie.ch" do %>
+            <p><i class="fa-regular fa-envelope"></i><strong> Par e-mail</strong></p>
+          <% end %>
+          naomi.nilsson@psychologie.ch
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="mb-3">Accès</h3>
+
+  <div class="contact-access-container d-flex align-items-center">
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.296270778311!2d6.630278815456697!3d46.52203887912781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2e318873e329%3A0x67dc283a84938dda!2sPl.%20de%20la%20Palud%207%2C%201003%20Lausanne!5e0!3m2!1sfr!2sch!4v1656851056337!5m2!1sfr!2sch" width="500" height="500" style="border-radius:15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div>
+      <p class="contact-access-intro text-justify">Pour venir au cabinet en transports publics le métro m2 (arrêt Riponne Maurice-Béjart) est à 100 mètres, les arrêts de bus Bel-Air et Riponne sont aussi très proches.<br><br>Pour venir en voiture les parkings de la Riponne ou du Rôtillon sont tout proches également<br><br>Il n’y a malheureusement pas de places vélo sur la place même, mais des places sont disponibles à Bel-Air, et à la place Pépinet.</p>
+    </div>
+  </div>
+
+</div>

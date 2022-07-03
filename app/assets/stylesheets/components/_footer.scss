@@ -6,7 +6,7 @@
   bottom: 0;
 }
 
-.contact-data {
+.footer-contact-data {
   min-height: 15vh;
   background-color: $green;
   color: $light-gray;
@@ -16,10 +16,6 @@
 .footer-infos {
   min-width: 18vh ;
   margin: 2vh 0;
-
-  a {
-    text-decoration: none;
-  }
 }
 
 .footer-access-map {
