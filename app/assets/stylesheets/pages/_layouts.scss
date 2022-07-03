@@ -13,7 +13,7 @@ html, body {
 }
 
 .content {
-  padding-top: 13vh;
+  padding-top: 15vh;
   padding-bottom: 24vh;
 }
 
@@ -49,8 +49,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-bottom: 0;
-  font-family: Helvetica, sans-serif;
-  font-size: 2vh;
 }
 
 h1 {
@@ -63,7 +61,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 
   h1 {
     margin: 0;
@@ -84,11 +82,16 @@ h1 {
 }
 
 .size-highlight {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .content-container {
+  margin: 0 auto;
   width: 60%;
   height: 100%;
   margin-bottom: 5vh;
+}
+
+.bubble {
+  border-radius: 50%;
 }
